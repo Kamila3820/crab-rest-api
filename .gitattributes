@@ -1,2 +1,7 @@
-# Handle line endings
+# Ensure text files use LF in the repository
 * text=auto
+
+# Explicitly set line endings for specific file types
+*.rs text eol=lf
+*.toml text eol=lf
+*.lock text eol=lf
